@@ -1,5 +1,5 @@
 [project]
-name = "bytewax_timers"
+name = "bytewax-timers"
 version = "0.1"
 description = "Tools to help manage multiple timers in stateful operators."
 readme = "README.md"
@@ -27,9 +27,9 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/bytewax/bytewax_timers"
-"Bug Reports" = "https://github.com/bytewax/bytewax_timers/issues/new"
-"Source" = "https://github.com/bytewax/bytewax_timers/"
+"Homepage" = "https://github.com/bytewax/bytewax-timers"
+"Bug Reports" = "https://github.com/bytewax/bytewax-timers/issues/new"
+"Source" = "https://github.com/bytewax/bytewax-timers/"
 
 [build-system]
 requires = ["setuptools>=43.0.0", "wheel"]
