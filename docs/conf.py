@@ -185,15 +185,14 @@ myst_substitutions = {
 }
 myst_url_schemes = {
     "gh-issue": {
-        "url": "https://github.com/bytewax/bytewax_timers/issues/"
+        "url": "https://github.com/bytewax/bytewax-timers/issues/"
         "{{ path }}#{{ fragment }}",
         "title": "Issue #{{path}}",
         "classes": ["github"],
     },
     "gh-path": {
-        "url": f"https://github.com/bytewax/bytewax_timers/blob/{git_id}"
-        "#{path}}#",
-        "title": "bytewax/bytewax_timers{{ path }}",
+        "url": f"https://github.com/bytewax/bytewax-timers/blob/{git_id}" "#{path}}#",
+        "title": "bytewax/bytewax-timers{{ path }}",
         "classes": ["github"],
     },
     "http": None,
@@ -218,9 +217,7 @@ autodoc2_hidden_objects = [
 autodoc2_output_dir = "api"
 # Python package to parse to generate Markdown API docs for in the
 # above directory.
-autodoc2_packages = [
-    "../src/bytewax/timers"
-]
+autodoc2_packages = ["../src/bytewax/timers"]
 # Controls the generation of those Markdown files. We have some
 # specific formatting requirements and inhereit from the built-in
 # renderer. This is why we need the path adjustment at the beginning

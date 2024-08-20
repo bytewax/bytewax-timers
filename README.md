@@ -1,5 +1,5 @@
-[![Actions Status](https://github.com/bytewax/bytewax_timers/workflows/CI/badge.svg)](https://github.com/bytewax/bytewax_timers/actions)
-[![PyPI](https://img.shields.io/pypi/v/bytewax_timers.svg?style=flat-square)](https://pypi.org/project/bytewax_timers/)
+[![Actions Status](https://github.com/bytewax/bytewax-timers/workflows/CI/badge.svg)](https://github.com/bytewax/bytewax-timers/actions)
+[![PyPI](https://img.shields.io/pypi/v/bytewax-timers.svg?style=flat-square)](https://pypi.org/project/bytewax-timers/)
 [![Bytewax User Guide](https://img.shields.io/badge/user-guide-brightgreen?style=flat-square)](https://docs.bytewax.io/projects/timers/en/latest/index.html)
 
 <picture>
@@ -85,4 +85,3 @@ Activate your development environment and run the development task:
 ## License
 
 Bytewax Timers is commercially licensed with publicly available source code. Please see the full details in [LICENSE](./LICENSE.md).
-
