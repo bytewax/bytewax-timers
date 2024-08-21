@@ -41,11 +41,13 @@ mdit-py-plugins==0.4.1
 mdurl==0.1.2
     # via markdown-it-py
 myst-parser==4.0.0
+    # via -r requirements/doc.in
 packaging==24.1
     # via
     #   pydata-sphinx-theme
     #   sphinx
 pydata-sphinx-theme==0.15.4
+    # via -r requirements/doc.in
 pygments==2.18.0
     # via
     #   accessible-pygments
@@ -61,13 +63,17 @@ soupsieve==2.6
     # via beautifulsoup4
 sphinx==8.0.2
     # via
+    #   -r requirements/doc.in
     #   myst-parser
     #   pydata-sphinx-theme
     #   sphinx-favicon
     #   sphinx-substitution-extensions
 sphinx-autodoc2 @ git+https://github.com/davidselassie/sphinx-autodoc2@a9db7460ca254983c673184f1d7b5db6c1c31e83
+    # via -r requirements/doc.in
 sphinx-favicon==1.0.1
+    # via -r requirements/doc.in
 sphinx-substitution-extensions==2024.8.6
+    # via -r requirements/doc.in
 sphinxcontrib-applehelp==2.0.0
     # via sphinx
 sphinxcontrib-devhelp==2.0.0
@@ -77,6 +83,7 @@ sphinxcontrib-htmlhelp==2.1.0
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
 sphinxcontrib-mermaid==0.9.2
+    # via -r requirements/doc.in
 sphinxcontrib-qthelp==2.0.0
     # via sphinx
 sphinxcontrib-serializinghtml==2.0.0
