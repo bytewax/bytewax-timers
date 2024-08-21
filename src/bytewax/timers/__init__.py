@@ -72,7 +72,7 @@ class MultiNotifier(Generic[T]):
     system. This requires you to add it to whatever state you are
     snapshotting, and ensure that it is built back into your
     {py:obj}`bytewax.operators.StatefulBatchLogic` subclass in the
-    {py:obj}`bytewax.operators.stateful_batch.builder` callback
+    {py:obj}`bytewax.operators.stateful_batch`'s `builder` callback
     function.
 
     """
