@@ -10,7 +10,8 @@
 
 ## Bytewax Timers
 
-* TODO: Add project documentation
+The `bytewax.timers.MultiNotifier` can help you manage multiple timers
+in a stateful operator.
 
 ## Setting up the project
 
