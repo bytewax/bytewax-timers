@@ -593,7 +593,8 @@ sphinx-autobuild==2024.4.16 \
     --hash=sha256:1c0ed37a1970eed197f9c5a66d65759e7c4e4cba7b5a5d77940752bf1a59f2c7 \
     --hash=sha256:f2522779d30fcbf0253e09714f274ce8c608cb6ebcd67922b1c54de59faba702
     # via -r requirements/dev.in
-sphinx-autodoc2 @ git+https://github.com/davidselassie/sphinx-autodoc2@a9db7460ca254983c673184f1d7b5db6c1c31e83
+sphinx-autodoc2 @ https://github.com/davidselassie/sphinx-autodoc2/archive/namespace-packages.zip \
+    --hash=sha256:4155079fe985398dd1cb1789619a485c735a46ca4570bf13b0be0584fc966615
     # via -r requirements/doc.in
 sphinx-favicon==1.0.1 \
     --hash=sha256:7c93d6b634cb4c9687ceab67a8526f05d3b02679df94e273e51a43282e6b034c \
