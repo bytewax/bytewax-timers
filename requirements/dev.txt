@@ -65,10 +65,7 @@ bytewax==0.21.0 \
     --hash=sha256:ece6452ce1c609915447402214714d7392cb7f864ea968a584b649ab8007466d \
     --hash=sha256:f551b2eef7b354b439fd13f62349528c1eff9e59ffbfdf2a7d4fe0141b4ae6ca \
     --hash=sha256:fffebf6ee9ed44f701d16156ce386d2ed2b7d3fe9cf3b381183c49e37ab8639b
-    # via
-    #   -r requirements/lib-py3.12.txt
-    #   bytewax-timers (pyproject.toml)
-    #   bytewax-timers
+    # via bytewax-timers
 certifi==2024.7.4 \
     --hash=sha256:5a1e7645bc0ec61a09e26c36f6106dd4cf40c6db3a1fb6352b0244e7fb057c7b \
     --hash=sha256:c198e21b1289c2ab85ee4e67bb4b4ef3ead0892059901a8d5b622f24a1101e90
@@ -442,16 +439,14 @@ pluggy==1.5.0 \
     --hash=sha256:2cffa88e94fdc978c4c574f15f9e59b7f4201d439195c3715ca9e2486f1d0cf1 \
     --hash=sha256:44e1ad92c8ca002de6377e165f3e0f1be63266ab4d554740532335b9d75ea669
     # via pytest
-pre-commit==3.8.0 \
-    --hash=sha256:8bb6494d4a20423842e198980c9ecf9f96607a07ea29549e180eef9ae80fe7af \
-    --hash=sha256:9a90a53bf82fdd8778d58085faf8d83df56e40dfe18f45b19446e26bf1b3a63f
+pre-commit==4.0.0 \
+    --hash=sha256:0ca2341cf94ac1865350970951e54b1a50521e57b7b500403307aed4315a1234 \
+    --hash=sha256:5d9807162cc5537940f94f266cbe2d716a75cfad0d78a317a92cac16287cfed6
     # via -r requirements/dev.in
 prometheus-client==0.20.0 \
     --hash=sha256:287629d00b147a32dcb2be0b9df905da599b2d82f80377083ec8463309a4bb89 \
     --hash=sha256:cde524a85bce83ca359cc837f28b8c0db5cac7aa653a588fd7e84ba061c329e7
-    # via
-    #   -r requirements/lib-py3.12.txt
-    #   bytewax
+    # via bytewax
 prompt-toolkit==3.0.47 \
     --hash=sha256:0d7bfa67001d5e39d02c224b663abc33687405033a8c422d0d675a5a13361d10 \
     --hash=sha256:1e1b29cb58080b1e69f207c893a1a7bf16d127a5c30c9d17a25a5d77792e5360
@@ -654,7 +649,6 @@ typing-extensions==4.12.2 \
     --hash=sha256:04e5ca0351e0f3f85c6853954072df659d0d13fac324d0072316b67d7794700d \
     --hash=sha256:1a7ead55c7e559dd4dee8856e3a88b41225abfe1ce8df57b7c13915fe121ffb8
     # via
-    #   -r requirements/lib-py3.12.txt
     #   bytewax
     #   mypy
     #   pydata-sphinx-theme
